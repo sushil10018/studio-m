@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact | studioM:PORTRAITS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+
+<body class="contact">
+<div class="row mobile_only mobile_top">
+	<div class="col-half"><img src="images/m_logo.png" width="82"></div>
+	<div class="col-half purple_bg"><a href="#"><img src="images/m_arrow_icon" width="16" alt="">Back Home</a></div>
+</div>
+	<div class="row page_header">
+		<div class="container">
+			<h1>contact</h1>
+			<a href="#" class="logo"></a>
+		</div>
+	</div>
+	<div class="row contact_content">
+		<div class="container">
+			<div class="contact_info">
+				<p><strong>Phone:</strong><span>517-709-3757</span></p>
+				<p><strong>Email:</strong><span><a href="mailto:info@studiomportraits.com">info@studiomportraits.com</a></span></p>
+				<p><strong>Address:</strong><span>2018 Cedar Street<br/>Suite E<br/>Holt, MI 48842</span></p>
+			</div>
+			<div class="contact_form">
+				<h2>get a free quote</h2>
+				<form>
+					<input type="text" placeholder="Full Name">
+					<input type="email" placeholder="Email Address">
+					<input type="text" placeholder="Phone Number">
+					<input type="text" placeholder="Type of photo shoot">
+					<textarea>Tell us more</textarea>
+					<input type="submit" class="form_send" value="Send">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div id="main_menu" class="row main_nav unhovered">
+		<div class="container">
+			<hr class="left_line" />
+			<a href="#" class="logo"></a>
+			<ul class="category_menu">
+				<li><a href="#"><span>Portraits</span><strong class="menu_overlay"></strong><img src="images/menu_img1.jpg"></a></li>
+				<li><a class="current" href="#"><span>Fashion & Glamour</span><strong class="menu_overlay"></strong><img src="images/menu_img2.jpg"></a></li>
+				<li><a href="#"><span>Seniors</span><strong class="menu_overlay"></strong><img src="images/menu_img3.jpg"></a></li>
+				<li><a href="#"><span>Weddings</span><strong class="menu_overlay"></strong><img src="images/menu_img4.jpg"></a></li>
+				<li><a href="#"><span>Corporate</span><strong class="menu_overlay"></strong><img src="images/menu_img5.jpg"></a></li>
+			</ul>
+			<ul class="social_menu">
+				<li><a href="#"><img src="images/social_menu1.png" alt=""></a></li>
+				<li><a href="#"><img src="images/social_menu2.png" alt=""></a></li>
+				<li><a href="#"><img src="images/social_menu3.png" alt=""></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"><img src="images/social_menu5.png" alt=""></a></li>
+				<li><a href="#"><img src="images/social_menu6.png" alt=""></a></li>
+				<li><a href="#"><img src="images/social_menu7.png" alt=""></a></li>
+				<li><a href="#"><img src="images/social_menu8.png" alt=""></a></li>
+			</ul>
+			<hr class="right_line" />
+		</div>
+	</div>
+	<script src="javascripts/jquery-1.4.3.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#main_menu").hover(function () {
+				$(this).toggleClass("unhovered");
+			});
+		});
+	</script>
+</body>
+
+</html>
